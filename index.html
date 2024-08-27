@@ -3,51 +3,274 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- font family online cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style file -->
     <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <img src="images/login.png" alt="">
-            <li>Login</li>
-            <img src="images/ic.png" alt="">
-            <li>Rx Form</li>
-            <img src="images/login.png" alt="">
-            <li>(02)51623</li>
-        </ul>
-    </header>
-    <div class="navbar">
-        <div class="logo">
-            <img src="images/logo.png" alt="">
-        </div>
-        <div class="nav">
+    <div id="mobile_nav">
+        <span id="cross"><i class="fa-solid fa-x" onclick="clo()"></i></span>
+        <div class="mnav">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Language</a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Language</a></li>
-                        <li><a href="#">Home</a></li>
-                    <li><a href="#">Language</a></li>
-                </ul>
-                </li>
                 <li><a href="#">About</a></li>
-                
+                <li><a href="#">Serives/Product</a></li>
+                <li><a href="#">Send a Case</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Design Services</a></li>
             </ul>
-           
         </div>
-        <span id="bar"><i class="fa-solid fa-bars" onclick="ope()"></i></span>
+       
+       
     </div>
-    <div id="mobile_nav">
-        <span id="cross"><i class="fa-solid fa-x" onclick="clos()"></i></span>
-        <div class="mnav">
+    <section class="top_bar">
+        <div class="container">
+            <div class="bar_inner">
+                <div class="top_item">
+                    <img src="images/login.png" alt="">
+                    <a href="#">Login</a>
+                </div>
+                <div class="top_item">
+                    <img src="images/ic.png" alt="">
+                    <a href="#">RX Form</a>
+                </div>
+               <div class="top_item">
+                <img src="images/contact.png" alt="">
+                <a href="#">(02) 9119 3276</a>
+               </div>
+               
+            </div>
+        </div>
+    </section>
+    <header>
+       
+        <div class="container">
+            <div class="navbar">
+                <div class="logo_img">
+                    <img src="images/logo.png" alt="" class="img_logo">
+                </div>
+                <di class="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Product/Services</a></li>
+                        <li><a href="#">Send a case</a></li>
+                        <li><a href="#">Desighn Service</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+            
+                    <div class="aside_bar">
+                        <ul>
+                            <li class="header_link_a"><a href="#">Smile Design</a></li>
+                            <li class="header_link"><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </di>
+                <i class="fa-solid fa-bars" id="bar" onclick="ope()"></i>   
+                   
+               
+            </div>
+            
+
             
         </div>
+    </header>
+
+    <section class="smile_banner">
+        <div class="container">
+            <div class="banner_content">
+                <h2>
+                    Unparalleled Service, With A Smile
+                </h2>
+                <p>
+                    Smile Art Lab is Sydney’s premier dental laboratory, catering to dentists looking for 
+a bespoke, turnkey service for all their patient’s needs. We supply state-of-the-art products, easy-to-navigate services and quality design and we do it all with a smile.  (Crowns, Bridges, Veneers,  Implants, and Smile Design)
+                </p>
+                <a href="#">Work With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="smile_about">
+        <div class="container">
+            <div class="about_inner">
+                <div class="about_img">
+                    <img src="images/about-img.png" alt="">
+                </div>
+                <div class="about_content">
+                    <h2>About Us</h2>
+                    <p>
+                        We are a contemporary dental laboratory based in Sydney, Australia. Our number one goal is to provide dentists with all the tools they need to properly service their patients. From implants to crowns to bridges and more, you name it - we supply it. </p><p>
+
+                        Our bespoke dental design technicians will work with you to create the best possible treatment plan for your patient. We only use materials of the highest quality to ensure you and your patients have a truly exceptional dental experience with
+                        outstanding results.</p><p class="last_p" >
+
+                        Smile Art Lab co-founders Riccardo Borgonvo and Yannick Roulet both hail from Europe. Ricky is from Meda, a small town near Como in Italy and Yannick is from Aix-en-Provence in the south of France. They both moved to Australia and met while working together in Sydney. They soon became fast friends and decided to build a business together.
+                    </p>
+                    <div class="about">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="card">
+        <div class="container">
+            <div class="cards_part1">
+                <div class="card1">
+                    <div class="img1"><img src="images/card1.svg" alt=""></div>
+                    <h2>The Perfect Fit Every Time</h2>
+                    <p>For every restoration, we fabricate 
+                        3-4 
+                        models to ensure the perfect fit, 
+                        functionality 
+                        and results each 
+                        and every time.
+                    </p>
+                </div>
+                <div class="card2">
+                    <div class="img1"><img src="images/card_clock.png" alt=""></div>          
+                    <h2>Punctual and Prompt Delivery</h2>
+                    <p>As a Smile Art Lab customer, you receive a guarantee that all work completed on your behalf by our technicians will be delivered on time, within the schedule you provide. </p>
+                </div>
+
+            </div>
+            <div class="cards_part2">
+                <div class="card3">
+                    <div class="img1"> <img src="images/card1.svg" alt=""></div>
+                    <h2>Competitive Pricing</h2>
+                    <p>Our prerogative is to serve the dental 
+                        industry and their patients. We don’t 
+                        see the point in overcharging for a
+                        service that helps so many people.</p>
+                </div>
+                <div class="card4">
+                    <div class="img1"><img src="images/card_clock.png" alt=""></div>
+                    <h2>Smile Design</h2>
+                    <p>Your Smile Designer is your point 
+                        of contact at Smile Art Lab for all things dental! 
+                        They work with you to provide the personalised service you deserve. </p>
+                </div>
+                <div class="card5">
+                    <div class="img1"><img src="images/card_clock.png" alt=""></div> 
+                    <h2>Innovation is Key</h2>
+                    <p>If you work digitally with a scanner, we 
+                        can accommodate. Our technology 
+                        and processes make it easy for you to 
+                        send us your digital files. </p>
+                </div>
+                
+                
+
+            </div>
+        </div>
+        <div class="link_workwithus">
+            <a href="#">Work With Us</a>
+        </div>
        
-       
+    
+    </section>
+    <div class="getting_part">
+        <div class="container">
+            <div class="getting_heading">Getting Started</div>
+            <div class="getting_group">
+                <div class="getting_img img1">
+                    <img src="images/getting1.png" alt="" >
+                </div>
+                <div class="getting_content ">
+                    <div class="content_heading">
+                        <h3>1.</h3>
+                        <h2> Complete Our Quick & Easy Form</h2>
+                    </div>
+                  
+                    <p>Click here to open our enquiry form and complete the details accordingly. We will be in touch as soon as possible with pricing and further information. Chat soon!”</p>
+                </div>
+            </div>
+            
+            <div class="getting_group ">
+                <div class="getting_img img2">
+                    <img src="images/getting2.png" alt="">
+                </div>
+                <div class="getting_content">
+                    <div class="content_heading">
+                        <h3>2.</h3>
+                        <h2> Update Your Preferences</h2>
+                    </div>
+                  
+                    <p> We will help you open a Smile Art Lab account and update your design preferences so we know exactly what your style is when it comes to dental work (contact, occlusion, etc.).</p>
+                </div>
+            </div>
+
+            <div class="getting_group ">
+                <div class="getting_img img3">
+                    <img src="images/getting2.png" alt="">
+                </div>
+                <div class="getting_content">
+            
+                    <div class="content_heading">
+                        <h3>3.</h3>
+                        <h2> Send Your Case</h2>
+                    </div>
+                
+                    <p>As soon as your account setup has been completed, you can call us to arrange a pickup or send a digital case across. If you need any assistance with this, please reach out.</p>
+                </div>
+            </div>  
+            <a href="#">Work With Us</a>
+            
+        </div>
     </div>
- <script  src="js/script.js"></script>   
+    <div class="slickaider">
+        <div class="container">
+             <div class="slickslider_part">
+            <div class="circle"> 
+
+            </div>
+            <div class="slider">
+                <h2>Danilo Strumendo</h2>
+                <div class="star">
+                    <img src="images/star.png" alt="">
+                </div>
+                <p>I’ve been working with SmileArt for 5 years now! They deliver Exceptional work and service and are at the forefront of digital dentistry. They are up to date with the latest and best dental technology to help my patients achieve a smile they can wear with pride and excitement.</p>
+            </div>  
+        </div>
+        </div>
+       
+       
+      
+    </div>
+    <div class="foot">
+        <div class="container">
+            <div class="footpart">
+                <div class="foot_head">
+                    <div class="foot_logo">
+                        <img src="images/Logo_black.png" alt="">
+                    </div>
+                    <div class="foot_mark">
+                        <p>© 2023 Smile Art Lab. All rights reserved.</p>
+                        <p>Terms & Conditions <span>Privacy  Policy</span> </p>
+                    </div>
+                    <div class="foot_facelogo">
+                        <img src="images/facebook.png" alt="">
+                    </div>
+                </div>
+                <div class="foot_link">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Product/Services</a></li>
+                        <li><a href="#">Send a case</a></li>
+                        <li><a href="#">Desighn Service</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
